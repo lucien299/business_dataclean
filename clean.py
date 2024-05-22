@@ -32,9 +32,10 @@ def extract_year(date_str):
         return None
 
 
-data = {
-    'date': ["25-12-2020", "2020-12-25", "2020.12.25", "31-01-2021", "2021-01-31", "2021.01.31", "2342343","2024.01.31"]
-}
-df = pd.DataFrame(data)
-df['year'] = df['date'].apply(extract_year)
-print(df)
+# 测试
+# data = {
+#     'date': ["25-12-2020", "2020-12-25", "2020.12.25", "31-01-2021", "2021-01-31", "2021.01.31", "2342343","2024.01.31"]
+# }
+# df = pd.DataFrame(data)
+# df['year'] = df['date'].apply(extract_year)
+# print(df)
